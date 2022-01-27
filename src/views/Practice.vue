@@ -38,7 +38,7 @@
 			<el-table-column>
 				<template slot-scope="scope">
 					<router-link :to="{path:'/record',query:{practice_id:scope.row.id}}">
-						<el-button type="text" size="small" disabled>查看记录</el-button>
+						<el-button type="text" size="small">查看记录</el-button>
 					</router-link>
 				</template>
 			</el-table-column>
